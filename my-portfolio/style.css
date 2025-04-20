@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+   
+}
+body{
+    background-color: whitesmoke;
+    color: black;
+    font-family: Geneva, Verdana, sans-serif;
+}
+
+nav{
+    background-color: darkslategrey;
+    color: whitesmoke;
+    font-family: Geneva, Verdana, sans-serif;
+    padding:  30px;
+    
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+   
+    list-style: none;
+    cursor: pointer;
+
+}
+li:hover{
+    text-decoration: underline;
+    color: lightgray;
+    height: auto;
+    width: auto;
+    border-radius: 10px;
+}
+.logo{
+    max-width: 60px;
+}
+.name{
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    padding-top: 15px;
+
+}
+.headshot{
+    width: 150px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: darkslategrey 3px solid;
+}
+.all {
+    width: 80%; /* Set a consistent width */
+    max-width: 1200px;
+    padding: 70px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align content to the left */
+}
+p{
+    max-width: 400px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+/*Back to top button*/
+.backToTop{
+    width: 100px;
+    height: 35px;
+    position: fixed;
+    bottom: 1rem;
+    right: 30px;
+    display: block;
+    background-color: darkslategrey;
+    color: white;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+
+/* About Section */
+#about {
+    text-align: left;
+}
+
+/* Portfolio Section */
+#portfolio {
+    padding: 0;
+    text-align: left;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: none; /* Ensures alignment with About section */
+}
+
+.project img {
+    width: 150px;
+    height: auto;
+    border-radius: 5px;
+}
+
+.project-info {
+    max-width: 500px;
+}
+
+.project-info h3 {
+    margin-bottom: 5px;
+}
+
+.project-info a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 12px;
+    background: darkslategrey;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project-info a:hover {
+    background: #2a4d4d;
+}
